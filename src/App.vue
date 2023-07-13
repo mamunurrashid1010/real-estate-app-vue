@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1>Real Estate App</h1>
+
+    <router-view/>
   </div>
 
 </template>
