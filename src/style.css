@@ -76,6 +76,7 @@ header .logo{
   font-weight: bolder;
   font-size: 2.5rem;
   color:#333;
+  text-decoration: none;
 }
 
 header .logo span{
@@ -86,6 +87,7 @@ header .navbar a{
   color:#333;
   font-size: 2rem;
   padding:0 1.5rem;
+  text-decoration: none;
 }
 
 header .navbar a:hover{
@@ -103,6 +105,7 @@ header .icons a{
   color:var(--red);
   background:var(--light-red);
   text-align: center;
+  text-decoration: none;
 }
 
 header .icons #menu-bars:hover,
@@ -163,6 +166,8 @@ header .icons #menu-bars{
     border:.1rem solid #333;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
+    width: 100%;
+    text-decoration: none;
   }
 
 }
