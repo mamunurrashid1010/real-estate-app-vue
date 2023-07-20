@@ -1,12 +1,15 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <Banner/>
   </div>
 </template>
 
 <script>
+import Banner from "../component/home/Banner.vue";
+
 export default {
   name: 'Home',
+  components: {Banner},
   data(){
     return{
 
