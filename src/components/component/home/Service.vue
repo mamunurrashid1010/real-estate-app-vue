@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../../../../../../html-template/html-css-js/website/website-8-real-state/css/style.css">
 <template>
   <div>
     <section class="services" id="services">
