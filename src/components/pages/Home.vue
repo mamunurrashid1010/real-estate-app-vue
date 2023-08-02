@@ -3,6 +3,7 @@
     <Banner/>
     <Service/>
     <Feature/>
+    <Agent/>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import Banner from "../component/home/Banner.vue";
 import Service from "../component/home/Service.vue";
 import Feature from "../component/home/Feature.vue";
+import Agent from "../component/home/Agent.vue";
 
 export default {
   name: 'Home',
-  components: {Feature, Service, Banner},
+  components: {Agent, Feature, Service, Banner},
   data(){
     return{
 
