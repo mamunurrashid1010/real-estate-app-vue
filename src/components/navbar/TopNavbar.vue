@@ -6,7 +6,7 @@
 
       <nav class="navbar" :class="navBarActive">
         <router-link to="/">home</router-link>
-        <router-link to="/">services</router-link>
+        <router-link to="/services">services</router-link>
         <router-link to="/">featured</router-link>
         <router-link to="/">agents</router-link>
         <router-link to="/">contact</router-link>
